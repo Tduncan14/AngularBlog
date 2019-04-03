@@ -1,0 +1,25 @@
+{
+  "name": "angularblog",
+  "version": "1.0.0",
+  "description": "A blog build with the mern stack",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tduncan14/AngularBlog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tduncan14/AngularBlog/issues"
+  },
+  "homepage": "https://github.com/Tduncan14/AngularBlog#readme"
+}
