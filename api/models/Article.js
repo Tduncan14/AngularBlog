@@ -12,13 +12,18 @@ let ArticleSchema = new Schema ({
       required:true
   },
    body:String,
+   tag:{
+    type:String,
+    enum:['Politics','Economy','Education','Story','Tech']
+   },
    createdOn:{
        type: Date,
        default:Date.now
+   },
+   photo:{
+       type: String,
+       required:true
    }
 });
 
-
-
-
-module.exports = Mongoose.model('Article',ArticleSchema);
+module.exports = Mongoose.model('ArticleModel',ArticleSchema);
